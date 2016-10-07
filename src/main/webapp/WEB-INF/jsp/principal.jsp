@@ -21,7 +21,7 @@
         </div>
         <%@include file="html/footer.jsp" %>
         <script>
-            function MainController($scope, DTOptionsBuilder, DTColumnBuilder) {
+            function MainController($scope, DTOptionsBuilder, DTColumnBuilder, Zonas) {
                 var vm = this;
                 vm.zona;
                 vm.municipio;
